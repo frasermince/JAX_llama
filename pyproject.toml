@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jax-llama"
+version = "0.1.0"
+description = ""
+authors = ["Charlie Snell"]
+readme = "README.md"
+packages = [{include = "jax_llama"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fire = "^0.5.0"
+sentencepiece = "^0.1.97"
+jax = "^0.4.6"
+flax = "^0.6.7"
+jaxtyping = "^0.2.14"
+transformers = "^4.27.2"
+torch = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

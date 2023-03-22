@@ -3,7 +3,7 @@
 
 PRESIGNED_URL=""             # replace with presigned url from email
 MODEL_SIZE="7B,13B,30B,65B"  # edit this list with the model sizes you wish to download
-TARGET_FOLDER=""             # where all files should end up
+TARGET_FOLDER="/Users/frasermince/llama.cpp/models"             # where all files should end up
 
 declare -A N_SHARD_DICT
 
